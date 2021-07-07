@@ -1,0 +1,58 @@
+.gradient-background {
+    background: linear-gradient(270deg, #c9d5d2, #d9e2df, #e3ded2, #e1dce2);
+    background-size: 800% 800%;
+
+    -webkit-animation: bgGradientAnimate 30s ease infinite;
+    -moz-animation: bgGradientAnimate 30s ease infinite;
+    animation: bgGradientAnimate 30s ease infinite;
+}
+
+@-webkit-keyframes bgGradientAnimate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.w-bg-image{
+    background-image: url("../images/w-bg-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.about-bg-image{
+    background-image: url("../images/about-img.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*.slick-list{
+    width: 100%;
+    height: 100%;
+
+    .slick-track{
+        width: 100%;
+        height: 100%;
+    }
+
+    .slick-slide{
+        div{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}*/

@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    //Scrollbar
+    &::-webkit-scrollbar {
+        width: 0.5em;
+        height: 0.5em;
+    }
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: lightseagreen;
+        outline: 1px solid transparent;
+    }
+}
+
+//   Welcome Plage
+@import "welcome";
+
+//   Auth Styles
+@import "auth";

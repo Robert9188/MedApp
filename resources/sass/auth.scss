@@ -1,0 +1,9 @@
+.auth-body-bg, .dash-body-bg{
+    background-image: url("../images/about-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .body-blur{
+        background-color: rgba(#7d98b8, .9);
+    }
+}

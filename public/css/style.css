@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: lightseagreen;
+  outline: 1px solid transparent;
+}
+
+.gradient-background {
+  background: linear-gradient(270deg, #c9d5d2, #d9e2df, #e3ded2, #e1dce2);
+  background-size: 800% 800%;
+  -webkit-animation: bgGradientAnimate 30s ease infinite;
+  animation: bgGradientAnimate 30s ease infinite;
+}
+
+@-webkit-keyframes bgGradientAnimate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.w-bg-image {
+  background-image: url(/images/w-bg-image.png?40a2f688f0d37dbfd7dfd3da5f423305);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-bg-image {
+  background-image: url(/images/about-img.jpg?d87d20a1ab1afd9087c6b7ebbd78d012);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*.slick-list{
+    width: 100%;
+    height: 100%;
+
+    .slick-track{
+        width: 100%;
+        height: 100%;
+    }
+
+    .slick-slide{
+        div{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}*/
+.auth-body-bg, .dash-body-bg {
+  background-image: url(/images/about-img.jpg?d87d20a1ab1afd9087c6b7ebbd78d012);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.auth-body-bg .body-blur, .dash-body-bg .body-blur {
+  background-color: rgba(125, 152, 184, 0.9);
+}
